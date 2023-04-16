@@ -60,13 +60,13 @@ nav {
     min-height: 40px;
     background-color: rgb(31, 82, 55);
     box-shadow: 0 0 20px rgb(31, 82, 55);
-    padding-top: 5px;
+    padding: 5px 20px;
 }
 
 nav a {
-    margin: 5px 5px 5px calc(5px + 2%);
+    margin: 5px .5%;
     text-decoration: none;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 3px;
     color: #cefdd1cc;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.288);
@@ -78,7 +78,6 @@ nav a:hover {
     background-color: rgb(71, 185, 124);
     color: black;
     transition-duration: 0.5s;
-    box-shadow: 0 0 3px rgb(98, 255, 171);
 }
 
 main {
@@ -106,7 +105,7 @@ main h2 {
 main p {
     margin: 10px 0;
     font-size: 0.9em;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 main img{
@@ -203,7 +202,7 @@ footer {
     background-color: rgb(26, 92, 56);
     color: #fff;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 25px;
     box-shadow: 0 0 20px rgb(31, 82, 55);
 }
 
